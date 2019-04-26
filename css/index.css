@@ -208,6 +208,30 @@ p {
     border: 1px solid #000;
 }
 
+/* CONTACT PAGE */ 
+.contact {
+    background: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.contact label{
+    font-size: 15px;
+}
+.contact input[type=text],textarea {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    border: none;
+}
+.contact input[type=submit] {
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #000;
+    color: #fff; 
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
