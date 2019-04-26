@@ -116,7 +116,7 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content .boxes, .middle-content .services-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -132,6 +132,8 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* BOXES BACKGROUND COLOUR*/
 .middle-content .boxes .box1 {
     background: teal;
 }
@@ -172,6 +174,35 @@ p {
     background: dodgerblue;
 }
 
+/* ABOUT US */
+.top-about {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px 20px 20px;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+/* SERVICES BOX */
+.middle-content .services-box .service {
+    width: 45%;
+    margin: 20px 2.5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .services-box .service h2 {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.middle-content .services-box .service button {
+    width: 30%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -185,6 +216,13 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* BOTTOM CONTENT SERVICES*/
+
+.bottom-service {
+    padding: 20px;
+}
+
 
 footer {
     width: 100%;
