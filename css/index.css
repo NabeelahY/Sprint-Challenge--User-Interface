@@ -70,17 +70,26 @@ p {
     width: 900px;
     margin: 10px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 20px;
 }
 
 .nav-bar a {
+    margin-right: 10px;
     padding: 30px;
+    text-decoration: none;
+    color: #000;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/* BANNER IMAGE */ 
+.container .banner {
+    vertical-align: middle;
+    padding: 10px;
 }
 
 .top-content {
