@@ -65,6 +65,18 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* HEADER STYLING */
+.nav-bar {
+    width: 900px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-bar a {
+    padding: 30px;
+}
 
 .container {
     width: 800px;
