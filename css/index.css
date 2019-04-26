@@ -110,13 +110,16 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.middle-service {
+    margin-bottom: 20px;;
+}
 
-.middle-content h2 {
+.middle-content h2, .middle-service h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes, .middle-content .services-box {
+.middle-content .boxes, .middle-service .services-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -183,19 +186,21 @@ p {
     border-bottom: 1px dashed black;
 }
 /* SERVICES BOX */
-.middle-content .services-box .service {
+.middle-service .services-box .service {
     width: 45%;
     margin: 20px 2.5%;
+    padding-bottom: 20px;
     align-items: center;
     justify-content: center;
+    border-bottom: 1px dashed black;
 }
 
-.middle-content .services-box .service h2 {
+.middle-service .services-box .service h2 {
     text-align: left;
     padding: 10px 0;
 }
 
-.middle-content .services-box .service button {
+.middle-service .services-box .service button {
     width: 30%;
     margin: 10px 0;
     padding: 10px;
@@ -222,7 +227,6 @@ p {
 .bottom-service {
     padding: 20px;
 }
-
 
 footer {
     width: 100%;
